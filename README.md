@@ -5,9 +5,13 @@ This is a simple two-floored maze. The goal is to get to one of the two white pa
 Controls
 
 wasd - movement
+
 left click - start camera rotate
+
 wasd - rotate the camera
+
 right click - stop camera rotate
+
 space - jump
 
 Hope you enjoy!
