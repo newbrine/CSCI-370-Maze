@@ -32,6 +32,10 @@ public class Controller : MonoBehaviour {
         }
         else
         {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                transform.Translate(0f, 3, 0f);
+            }
             transform.Translate(-Input.GetAxis("Vertical") * Time.deltaTime * speed, 0f, Input.GetAxis("Horizontal") * Time.deltaTime * speed);
         }
     }
