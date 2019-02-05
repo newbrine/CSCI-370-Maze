@@ -8,6 +8,9 @@ TagManager:
   - Teleport
   - InnerWall
   - PowerBlock
+  - ItemBlock
+  - BreakBlock
+  - FlipBlock
   layers:
   - Default
   - TransparentFX
